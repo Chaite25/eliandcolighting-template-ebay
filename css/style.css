@@ -1,0 +1,511 @@
+/*  ================================
+        global area start
+    ================================ */
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    color: #1a1a1a;
+}
+
+a,
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 14px !important;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.main-div {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*  ================================
+        global area end
+    ================================ */
+
+/*  ================================
+        header area start
+    ================================ */
+
+.logo-area {
+    padding: 20px 0 0;
+}
+
+.logo-area img {
+    width: 220px;
+}
+
+/*======================== Menu Design ==================*/
+
+.primary-menu {
+    margin: 115px 0;
+    text-align: center;
+}
+
+#menu-switcher,
+.navbar-header > label,
+.switch {
+    display: none;
+}
+
+.menu-container label::before {
+    border-bottom: 2px solid #fff;
+    box-shadow: 0 5px 0 0 #fff, 0 0 0 0 inset, 0 -5px 0 0 #fff;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+
+.switch {
+    width: 100%;
+    float: left;
+    height: auto;
+    min-height: 45px;
+    position: relative;
+}
+
+.menu-container label {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    cursor: pointer;
+    display: none;
+    height: 35px;
+    padding: 0;
+    position: absolute !important;
+    right: 0;
+    top: 4px;
+    width: 40px;
+    z-index: 9999;
+    border: 1px solid #fff;
+}
+
+#navbar ul {
+    text-align: center;
+}
+
+#navbar ul li {
+    display: inline-block;
+    list-style: outside none none;
+}
+
+#navbar ul li a {
+    font-size: 18px;
+    color: #000;
+    line-height: 25px;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s;
+    padding: 0 30px;
+}
+
+#navbar ul li:first-child a {
+    border: 0;
+}
+
+/* menu part end */
+
+/*  ================================
+        header area end
+    ================================ */
+
+.support-box {
+    overflow: hidden;
+}
+
+.support-box ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.support-box ul li {
+    float: left;
+    width: 25%;
+    list-style: none;
+    position: relative;
+    padding: 0 0 10px;
+    margin-top: 20px;
+}
+
+.support-box ul li:last-child {
+    margin-right: 0;
+}
+
+.service-left {
+    text-align: center;
+}
+
+.service-left i {
+    font-size: 40px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background: #EFA22E;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.service-right {
+    padding: 10px 0;
+    font-weight: bold;
+    color: #000;
+    transition: 0.5s;
+    text-transform: capitalize;
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+}
+
+/*  ================================
+        product area start
+    ================================ */
+
+.product-wraper {
+    border: 1px solid #eee;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 0 0 30px;
+}
+
+.product-wraper h3 {
+    font-size: 26px;
+    padding: 20px;
+    background-color: #051F12;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gallery-content {
+    text-align: center;
+}
+
+.product-wraper img {
+    padding: 20px 30px;
+    transition: 0.5s;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.product-wraper img:hover {
+    box-shadow: 0 7px 14px rgba(0, 0, 0, .15), 0 5px 6px rgba(0, 0, 0, .15);
+
+}
+
+.product-dec {
+    padding: 30px;
+    background-color: #dddddc;
+    margin: 30px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.product-dec:hover {
+    box-shadow: 0 7px 14px rgba(0, 0, 0, .15), 0 5px 6px rgba(0, 0, 0, .15);
+}
+
+.con-info .product-dec {
+    padding: 30px 0;
+}
+
+.product-dec h3 {
+    color: #fff;
+}
+
+.product-dec h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-dec ul {
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+/*  ================================
+        product area end
+    ================================ */
+
+
+/*  ================================
+        tab area start
+    ================================ */
+
+.tab-part-area {
+    padding: 0 0 30px;
+}
+
+section.tab-section {
+    display: none;
+    padding: 20px 30px 15px;
+    border: 1px solid #ddd;
+    color: #1a1a1a;
+    overflow: hidden;
+}
+
+.tab-part-area input {
+    display: none;
+}
+
+.tab-part-area label {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 10px 40px;
+    text-align: center;
+    background-color: #051F12;
+    border: 1px solid #051F12;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.tab-part-area label:hover {
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #EFA22E;
+    background-color: #EFA22E;
+}
+
+.tab-part-area input:checked + label {
+    color: #fff;
+    border: 1px solid #EFA22E;
+    background-color: #EFA22E;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+    display: block;
+}
+
+.tab-section {
+    text-align: left;
+}
+
+.tab-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 15px;
+}
+
+
+.tab-section ul {
+    margin: 10px;
+}
+.tab-section p a {
+	color: #000;
+	font-weight: 600;
+	text-decoration: underline;
+}
+/*  ================================
+        tab area end
+    ================================ */
+
+/*  ================================
+        footer area start
+    ================================ */
+
+.main-footer {
+    padding: 20px 0;
+    background-color: #051F12;
+}
+
+.copy-right p a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.copy-right p {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/*  ================================
+        footer area end
+    ================================ */
+
+/***** medium Layout *****/
+
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+/***** Tablet Layout *****/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .primary-menu {
+        margin: 30px 0 10px;
+    }
+}
+
+/***** Mobile Layout *****/
+
+@media only screen and (max-width: 767px) {
+
+
+    .menu-top li {
+        padding: 5px 0 0;
+    }
+
+
+    .support h2 {
+        font-size: 18px;
+    }
+
+    /* menu start */
+    .primary-menu {
+        margin: 10px 0 0;
+    }
+
+    .navbar-header > label,
+    .switch,
+    .menu-container label {
+        display: block;
+        top: -9px;
+        right: 10px;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #menu-switcher:checked + #navbar {
+        display: block;
+        padding: 15px 0;
+    }
+
+    .menu-container {
+        padding: 26px 0;
+        background-color: #051F12;
+    }
+
+    #navbar ul {
+        width: 100% !important;
+        margin: 0;
+    }
+
+    #navbar ul li {
+        width: 100%;
+        float: left;
+        margin: 0 !important;
+        text-align: left;
+    }
+
+    #navbar ul li a {
+        color: #fff;
+        display: block;
+        margin: 0 20px;
+        font-size: 16px;
+        padding: 10px 30px;
+        border-left: 1px solid #fff
+    }
+
+    #navbar ul li a:hover {
+        background-color: #EFA22E;
+    }
+
+    #navbar ul li:first-child a {
+        border-left: 1px solid #fff
+    }
+
+    #navbar {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: absolute;
+        top: 70px;
+        z-index: 999;
+        left: 0;
+        background-color: #000;
+    }
+
+    #navbar ul li a::before {
+        background: #fff;
+    }
+
+    #navbar ul li:last-child a {
+        border-right: none;
+    }
+
+    /* menu end */
+    .support-box ul li {
+        margin-top: 0;
+    }
+
+    .service-right {
+        font-size: 14px;
+    }
+
+    .product-dec {
+        padding: 10px;
+    }
+
+    .product-wraper h3 {
+        font-size: 20px;
+    }
+
+    .wel-come,
+    .menu-top {
+        padding: 0;
+        text-align: center;
+    }
+
+    .product-dec h2,
+    .pro-title h3,
+    .product-dec h3,
+    .product-dec h4,
+    .single-care h3 {
+        font-size: 16px;
+    }
+
+    .tab-part-area label {
+        display: block
+    }
+
+}
+
+/***** Wide Mobile Layout *****/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
